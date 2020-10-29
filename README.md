@@ -4,6 +4,7 @@ Autor: Isaac Chavez
     plicar buenas prácticas para el desarrollo de la interfaz gráfica de usuario, para la cuál se permite utilizar plantilla de Bootstrap.</h2>
     <p>1.Api a emplear:</p>
     <p>Open Libra. </p> 
+    <img src="https://i.imgur.com/mrMcMM0.png" style="width: 1000px; height: 1000px;">
     <p>OpenLibra dispone de un ligero servicio web con el que es posible acceder de forma remota a la mayoría de los datos de su catálogo bibliográfico. Mediante una petición AJAX (Javascript),
         se puede establecer una conexión directa con el sistema y obtener resultados en tiempo real sobre la consulta. El sistema devuelve un objeto JSON con el que es sencillo trabajar directamente en
         avascript o en otros lenguajes de servidor como PHP o Java. Esta primera versión del API facilita la creación de clientes independientes para OpenLibra, como por ejemplo de escritorio, 
@@ -11,13 +12,18 @@ Autor: Isaac Chavez
         crear notificaciones con las actualizaciones, clasificar y buscar libros según un criterio concreto o facilitar la lectura de documentos directamente online sin navegador.
     </p>
     <p>Para poder acceder a esta api se puede emplear el siguiente código
+   
+   <img src="https://i.imgur.com/S8bBN87.png" style="width: 1000px; height: 1000px;">
     </p>
     <p>De acuerdo a los requerimientos se emplearon dos tipos de consultas a las Apis. Para buscar una cantidad especifica de libros y otra para buscar un libro en especifico.
         Para el caso de búsqueda por nombre se empleo el siguiente código :
 
    </p>2.Botstrap</p>
-
+ 
+ 
+ 
    <h2>Estructura de la pagina</h2>
+   <img src="https://i.imgur.com/rm0WKN8.png" style="width: 500px; height: 500px;">
     <p>La pagina web esta desarrollada con la finalidad de atender la demanda de una biblioteca virtual. La pagina consta de tres partes principales:
     </p>
     <p>1.	El header en el que se encuentran ubicada la sección de un buscador y el respectivo logo.
@@ -31,13 +37,15 @@ Autor: Isaac Chavez
     </h2>
     <p>La interfaz grafica es sencilla e intuituva primero se debe llenar el campo “Search” y lueglo aplastar buscar, esto llamara a que aparezca la tabla de datos.
     </p>
-    <p>Explicación Codigo HTML
-    </p>
-    <p>La parte del buscador se encuentra ubicado en la sección del header, su código esta basado en el método de matriz que nos ofrece Bootstrap por lo que es mucho más
+    <p>Explicación Codigo HTML</p>
+    <img src="https://i.imgur.com/emqxKw5.png" style="width: 500px; height: 500px;">
+    
+   <p>La parte del buscador se encuentra ubicado en la sección del header, su código esta basado en el método de matriz que nos ofrece Bootstrap por lo que es mucho más
          fácil ubicar las diferentes partes. El header se divide en una
          fila (row), posteriormente se procede a dividir esta fila, la 6ta parte corresponderá al logo, uta parte corresponderá al input y lo restante al botón de buscar.
     </p>
-    <p>Explicaion Codigo JS
+   <img src="https://i.imgur.com/pMfgCZX.png" style="width: 500px; height: 500px;"> 
+   <p>Explicaion Codigo JS
     </p>
     <p>Función llamar()
     </p>
@@ -69,7 +77,8 @@ Autor: Isaac Chavez
     <p>Explicaion Codigo JS 
     </p>
     <p>Funcion ObtenerDatos()
-    </p>
+        <img src="https://i.imgur.com/uU2EqUr.png" style="width: 500px; height: 500px;">
+   </p>
     <p>Es la función mas importante ya que de acuerdo a su lógica están basadas las demás peticiones de datos, Esta basada en sesiones asíncronas por lo que empleamos la herramienta 
         de AJAX para su cometido, a continuación voy a detallar el código implementado para dicha tarea:
         La función recibe como parámetro el nombre del libro ya que de acuerdo a los requerimientos debe ser por su nombre, posteriormente procedemos a hacer la petición a la API a emplear, 
