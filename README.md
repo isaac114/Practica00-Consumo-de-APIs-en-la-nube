@@ -1,5 +1,12 @@
 # Practica00-Consumo-de-APIs-en-la-nube
 Autor: Isaac Chavez
+<h2>Identificar gráficamente la arquitectura y el patrón de diseño de la aplicación a desarrollar.</h2>
+<p>Arquitectura Web: Cliente-Servidor</p>
+<img src="https://i.imgur.com/muRqIP7.png" style="width: 1000px; height: 1000px;">
+<p>Patrón 3 Capas</p>
+<img src="https://i.imgur.com/pY0MhJa.png" style="width: 1000px; height: 1000px;">
+
+
 <h2>Desarrollar una aplicación web usando una de las API gratuitas de API List Fun. Tener en cuenta que se deben a 
     plicar buenas prácticas para el desarrollo de la interfaz gráfica de usuario, para la cuál se permite utilizar plantilla de Bootstrap.</h2>
     <p>1.Api a emplear:</p>
@@ -101,6 +108,27 @@ Autor: Isaac Chavez
         metpdps paginarMas() y paginarMenos() los cuales son los encargados de llamar a imprimir los resultados y mas que nada editar la variable limite.
     </p>
 
-   <h2></h2>
+   <h2>Resultados Obtenidos</h2>
+   <ol>
+    <ul>•	Los estudiantes son capaces de emplear APIs con la finalidad de obtener algún tipo de información de un servidor externo.</ul>
+    <ul>•	Los estudiantes son capaces de entender y manipular archivos JSON</ul>
+    <ul>•	Los estudiantes son capaces de integrar frameworks como Bootstrap para la optimización en diseño de una página web</ul>
+    <ul>•	Los estudiantes son capaces de interpretar información en formato  JSON para posteriormente plasmarla en alguna plataforma.</ul>
+    <ul>•	Los estudiantes comprenden los diferentes tipos de arquitecturas en las plataformas web</ul>
+    <ul>•	Los estudiantes comprenden los diferentes tipos de patrones en las plataformas web</ul>
+   </ol>
 
-   <h2></h2>
+   <h2>Concluciones</h2>
+   <ol>
+    <ul>•	Los estudiantes comprenden el potencial que tienen las herramientas que proveen recursos de información, así como a identificar los diferentes tipos de arquitecturas       y patrones en las plataformas web.</ul>
+    <ul>•	Los estudiantes son capaces de diseñar aplicaciones en la web con la finalidad de consumir algún recurso en este caso una API, los estudiantes serán capaces de             manipular esa información con la finalidad de que sea legible.</ul>
+    <ul>•	Los estudiantes son capaces de manejar frameworks como Bootstrap para un mejor rendimiento en el diseño de la plataforma web.</ul>
+   </ol>
+   
+   <h2>Recomendaciones</h2>
+    <ol>
+        <ul>•	Asistir a las sesiones de clase y revisar el material facilitado por el docente. </ul>
+        <ul>•	En el caso de que no carguen los archivos .php no emplear la ruta absoluta en el url si no la que comienza con localhost.</ul>
+        <ul>•	Emplear el navegador de preferencia en modo incognito</ul>
+        <ul>•	Si los cambios no se cargar en los estilos ir a reiniciar el servidor xammp</ul>
+    </ol>
